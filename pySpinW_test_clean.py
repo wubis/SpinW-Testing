@@ -55,4 +55,3 @@ peak = np.argmax(abs(delta))
 absolute = abs(delta)
 
 print("absolute delta", np.max(absolute))
-print(np.min(absolute[absolute > 0]))
